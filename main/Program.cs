@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-class TA7
+class TA5
 {
     public class Node<T>
     {
