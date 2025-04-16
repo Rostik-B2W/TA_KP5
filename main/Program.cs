@@ -205,7 +205,7 @@ class TA5
             BinaryTree tree = new();
             int[] values = { 16, 789, 300, 1, 2, 88, 50, 26, 24 };
             foreach (int v in values) tree.Add(new Node<int>(v));
-
+            Console.Write("enter looking number   ");
             int power = int.Parse(Console.ReadLine()!);
             Console.WriteLine("Before");
             tree.ShowTree();
@@ -235,7 +235,7 @@ class TA5
         }
         catch
         {
-            Console.WriteLine("Помилка введених даних");
+            Console.WriteLine("error enter number");
         }
     }
 }
